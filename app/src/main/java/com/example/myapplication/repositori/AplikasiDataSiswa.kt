@@ -1,4 +1,5 @@
 package com.example.myapplication.repositori
+
 import android.app.Application
 
 class AplikasiDataSiswa : Application() {
@@ -6,6 +7,6 @@ class AplikasiDataSiswa : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        container = ContainerDataSiswa()
+        container = DefaultContainerApp()
     }
 }

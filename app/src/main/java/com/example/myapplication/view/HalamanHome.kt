@@ -74,7 +74,7 @@ fun HomeScreen(
         HomeBody(
             statusUiSiswa = viewModel.listSiswa,
             onRetryClick = viewModel::loadSiswa,
-            modifier = modifier
+            modifier = Modifier
                 .padding(innerPadding)
                 .fillMaxSize()
         )
